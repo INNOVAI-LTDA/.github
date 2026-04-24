@@ -1,6 +1,25 @@
 # INNOVAI — Da Intenção à Solução Validada
 
-> Engenharia AI-native para transformar ideias, dados dispersos e decisões complexas em soluções digitais rastreáveis, testáveis e úteis no mundo real.
+<p align="center">
+  <img src="assets/auto_icon.png" width="145" alt="AUTO - SDLC AI-Native" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/kapra_icon.png" width="145" alt="KAPRA - Motor de Dados" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/deva_icon_oficial.png" width="145" alt="DEVA - Camada de Inteligência" />
+</p>
+
+<p align="center">
+  <strong>Engenharia AI-native para transformar ideias, dados dispersos e decisões complexas em soluções digitais rastreáveis, testáveis e úteis no mundo real.</strong>
+</p>
+
+<p align="center">
+  <a href="#auto--sdlc-ai-native">AUTO</a> •
+  <a href="#kapra--motor-de-dados-estruturados">KAPRA</a> •
+  <a href="#deva--camada-de-inteligência-e-decisão">DEVA</a> •
+  <a href="#cases-em-evolução">Cases</a>
+</p>
+
+---
 
 A **INNOVAI** combina estratégia, engenharia de software, dados e inteligência artificial para construir soluções com um ciclo estruturado de descoberta, especificação, arquitetura, implementação e validação.
 
@@ -14,9 +33,9 @@ A INNOVAI possui três soluções principais que se conectam entre si:
 
 | Solução | Papel | Resultado esperado |
 |---|---|---|
-| **AUTO** | Método e fábrica AI-native de construção de apps | Transformar intenção em app validado |
-| **KAPRA** | Motor de dados estruturados | Organizar dados dispersos em pilares, métricas e scores |
-| **DEVA** | Camada de inteligência e decisão | Apoiar gestão, priorização e evolução do cliente |
+| <img src="assets/auto_icon.png" width="38" alt="AUTO"/> **AUTO** | Método e fábrica AI-native de construção de apps | Transformar intenção em app validado |
+| <img src="assets/kapra_icon.png" width="38" alt="KAPRA"/> **KAPRA** | Motor de dados estruturados | Organizar dados dispersos em pilares, métricas e scores |
+| <img src="assets/deva_icon_oficial.png" width="38" alt="DEVA"/> **DEVA** | Camada de inteligência e decisão | Apoiar gestão, priorização e evolução do cliente |
 
 **KAPRA** e **DEVA** são grandes soluções construídas a partir da abordagem **AUTO**: primeiro estrutura-se a intenção, depois se refinam requisitos, arquitetura, módulos e validação até chegar a uma solução consistente.
 
@@ -24,9 +43,13 @@ A INNOVAI possui três soluções principais que se conectam entre si:
 
 ---
 
-## AUTO — A fábrica AI-native de soluções
+## AUTO — SDLC AI-Native
 
-**AUTO** é a abordagem da INNOVAI para construir aplicações com IA de forma organizada, rastreável e validável.
+<p align="center">
+  <img src="assets/auto_icon.png" width="220" alt="AUTO - SDLC AI-Native" />
+</p>
+
+**AUTO** é a fábrica AI-native de soluções da INNOVAI.
 
 Ele estrutura o ciclo de vida da solução em fases progressivas, inspiradas no V-Bounce:
 
@@ -62,6 +85,10 @@ O objetivo do AUTO é reduzir o desperdício típico de projetos que pulam diret
 
 ## KAPRA — Motor de dados estruturados
 
+<p align="center">
+  <img src="assets/kapra_icon.png" width="220" alt="KAPRA - Motor de Dados" />
+</p>
+
 **KAPRA** é o motor de dados da INNOVAI.
 
 Ele nasce para resolver um problema muito comum em empresas e projetos de consultoria: informações importantes estão espalhadas em planilhas, sistemas, APIs, documentos e percepções humanas. O resultado é um ecossistema cheio de dados, mas pobre em decisão.
@@ -84,6 +111,10 @@ Em termos práticos: o KAPRA pega o emaranhado do provedor e entrega sinal limpo
 ---
 
 ## DEVA — Camada de inteligência e decisão
+
+<p align="center">
+  <img src="assets/deva_icon_oficial.png" width="220" alt="DEVA - Camada de Inteligência" />
+</p>
 
 **DEVA** é a camada de inteligência da INNOVAI para apoiar decisões de gestão, acompanhamento e evolução de clientes.
 
@@ -121,13 +152,13 @@ O DEVA atua exatamente nesse espaço: transformar dados em leitura executiva e a
 
 ```mermaid
 flowchart LR
-    A[Cliente ou operação com intenção, dados e desafios] --> B[AUTO]
-    B --> C[Requisitos, arquitetura, módulos e validação]
-    C --> D[KAPRA]
-    D --> E[Dados estruturados em pilares, métricas e scores]
-    E --> F[DEVA]
-    F --> G[Centro de comando, matriz de decisão e radar de evolução]
-    G --> H[Ações para estruturar, decidir e evoluir]
+    A["Cliente ou operação com intenção, dados e desafios"] --> B["AUTO: método de construção"]
+    B --> C["Requisitos, arquitetura, módulos e validação"]
+    C --> D["KAPRA: motor de dados"]
+    D --> E["Dados estruturados em pilares, métricas e scores"]
+    E --> F["DEVA: camada de inteligência"]
+    F --> G["Centro de comando, matriz de decisão e radar de evolução"]
+    G --> H["Ações para estruturar, decidir e evoluir"]
 ```
 
 A lógica é simples:
@@ -168,14 +199,14 @@ A INNOVAI trabalha com um ciclo onde cada etapa deixa evidência:
 
 ```mermaid
 flowchart TD
-    I[Intenção bruta] --> E[Entrada]
-    E --> R[Requisitos]
-    R --> QA[Critérios de aceitação]
-    QA --> ARQ[Arquitetura]
-    ARQ --> MOD[Modularização e contratos]
-    MOD --> IMP[Implementação assistida por IA]
-    IMP --> VAL[Validação da entrega]
-    VAL --> APR[Aprovação humana]
+    I["Intenção bruta"] --> E["Entrada"]
+    E --> R["Requisitos"]
+    R --> QA["Critérios de aceitação"]
+    QA --> ARQ["Arquitetura"]
+    ARQ --> MOD["Modularização e contratos"]
+    MOD --> IMP["Implementação assistida por IA"]
+    IMP --> VAL["Validação da entrega"]
+    VAL --> APR["Aprovação humana"]
 ```
 
 Cada fase produz artefatos úteis, como:
@@ -212,9 +243,9 @@ A INNOVAI existe para transformar intenção em solução — com engenharia, in
 
 | Solução | Frase curta |
 |---|---|
-| **AUTO** | Da intenção ao app validado |
-| **KAPRA** | Do caos de dados à estrutura confiável |
-| **DEVA** | Da estrutura à decisão e evolução |
+| <img src="assets/auto_icon.png" width="28" alt="AUTO"/> **AUTO** | Da intenção ao app validado |
+| <img src="assets/kapra_icon.png" width="28" alt="KAPRA"/> **KAPRA** | Do caos de dados à estrutura confiável |
+| <img src="assets/deva_icon_oficial.png" width="28" alt="DEVA"/> **DEVA** | Da estrutura à decisão e evolução |
 
 ---
 
