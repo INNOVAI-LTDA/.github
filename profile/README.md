@@ -1,4 +1,3 @@
-# .github
 # SDLC AI-Native / V-Bounce
 
 > Um framework prático para transformar intenção em solução — sem pular direto para o código e depois fingir surpresa quando tudo vira refatoração arqueológica.
